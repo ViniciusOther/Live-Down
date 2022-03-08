@@ -46,7 +46,7 @@ def handle_video(url, file_name, chat_id, caption, uid):
             remove(PATH + file_name)
             remove('thumbs/' + thumb)
         # app.forward_messages(chatid, message.chat.id, message.message_id) 
-       # app.forward_messages(chatid, message.chat.id, message.message_id)
+        # app.forward_messages(chatid, message.chat.id, message.message_id)
         remove(PATH + file_name)
         remove('thumbs/' + thumb)
     else:
